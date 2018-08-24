@@ -5,10 +5,8 @@ subnet_b_az     = "us-west-1c"
 
 name            = "company"
 instance_type   = "t2.micro"
-ami             = "ami-xxxxxxxx"
+ami             = "ami-02ce66b61f73539e7"
 
 #HERE PUT THE NUMBER OF INSTANCES FOR EACH PRUPOSE
-common_centos   = "number_of_instances"
+common_centos   = "3"
 
-#HERE PUT THE DIFERENT KEYS FOR EACH INSTACE, CAN BE SOMETHING CUSTOM
-#key_name        = "your-key"
