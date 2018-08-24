@@ -6,4 +6,6 @@ variable "associate_public_ip_address" {}
 variable "name" {}
 variable "environment" {} 
 variable "count" {}
-#variable "key_name" {}
+variable "vpc_security_group_ids" {
+    type        = "list"
+}

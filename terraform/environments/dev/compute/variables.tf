@@ -8,4 +8,3 @@ variable "name" {}
 variable "ami" {}
 variable "instance_type" {}
 variable "common_centos" {}
-#variable "key_name" {}

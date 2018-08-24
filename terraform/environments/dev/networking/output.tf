@@ -1,3 +1,4 @@
+# outputs produced at the end of a terraform apply: id of VPC, internet gateway
 ##### VPC id #####
 output "vpc_company_id_out" {
     value       = "${module.vpc-company.vpc_id_out}" 

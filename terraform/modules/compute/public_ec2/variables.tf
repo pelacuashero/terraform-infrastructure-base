@@ -4,4 +4,6 @@ variable "availability_zone" {}
 variable "subnet_id" {}
 variable "name" {}
 variable "count" {}
-#variable "key_name" {}
+variable "vpc_security_group_ids" {
+    type        = "list"
+}
