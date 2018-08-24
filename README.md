@@ -13,11 +13,12 @@ I am still working on more modules
 
 These are the commands that will be at the core of every demo contained in this repository:
 
-terraform get
-terraform plan
-terraform apply
-terraform destroy
-Before progressing into any demos, it is also very important to understand 'state' in the context of Terraform, how it is fits in and the criticality of state file management.
+*terraform get
+*terraform plan
+*terraform apply
+*terraform destroy
+
+Before progressing into any demos, it is also very important to understand 'state' in the context of Terraform (https://www.terraform.io/docs/state/index.html), how it is fits in and the criticality of state file management.
 
 Directory Structure
 Each directory level will have a explanation of how the sub-directories are all structured, what is contained in them and why they should be set out this way.
