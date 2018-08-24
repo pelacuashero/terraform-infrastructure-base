@@ -8,5 +8,5 @@ instance_type   = "t2.micro"
 ami             = "ami-xxxxxxxx"
 
 #HERE PUT THE NUMBER OF INSTANCES FOR EACH PRUPOSE
-common_centos   = "3"
+common_centos   = "number_of_instances"
 
